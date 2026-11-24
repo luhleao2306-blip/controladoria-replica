@@ -7,6 +7,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  nitro: { preset: "node-server" },
   vite: {
     server: {
       host: "127.0.0.1",
